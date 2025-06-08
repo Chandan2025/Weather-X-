@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App with Voice Search</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Weather App with Voice Search</h1>
+
+  <div class="search-container">
+    <input type="text" id="search-input" placeholder="Enter city name" />
+    <button id="search-btn">Search</button>
+    <button id="voice-btn" title="Voice Search 🎤">🎤</button>
+  </div>
+
+  <div id="weather-info" style="display:none;">
+    <h2 id="city-name"></h2>
+    <img id="weather-icon" src="" alt="Weather Icon" />
+    <p id="temperature"></p>
+    <p id="condition"></p>
+    <p id="humidity"></p>
+    <p id="wind"></p>
+  </div>
+
+  <div id="weather-animation"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
